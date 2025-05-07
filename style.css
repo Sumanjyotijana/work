@@ -1,0 +1,596 @@
+/* header & body style */
+
+.fix {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.logoimg-1 img {
+    width: 140px;
+    height: auto;
+    object-fit: cover;
+    /* padding-right: 74px; */
+    /* list-style: none; */
+    width: 100%;
+    height: 100%;
+
+}
+
+.tags a {
+    text-decoration: none;
+    text-transform: capitalize
+}
+
+.tags {
+    gap: 23px;
+}
+
+.para {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.image img {
+    border-radius: 25px;
+    /* width: 100%; */
+
+}
+
+.first-tab {
+    background-color:  #ffffff4a !important;
+    padding: 16px 45px !important;
+    line-height: 1 !important;
+    font-size: 19px !important;
+    border-radius: 25px !important;
+}
+
+
+
+.afterfirst-tab {
+    padding: 16px 45px !important;
+    line-height: 1 !important;
+    font-size: 19px !important;
+    border-radius: 25px !important;
+    text-wrap: nowrap;
+}
+
+.afterfirst-tab:hover{
+    background-color: #ffffff4a !important;
+    padding: 16px 45px !important;
+    line-height: 1 !important;
+    font-size: 19px !important;
+    border-radius: 25px !important;
+    text-wrap: nowrap;   
+}
+
+.lastlast-tab {
+    background-color: #ee626b !important;
+    padding: 16px 45px !important;
+    line-height: 1 !important;
+    font-size: 19px !important;
+    border-radius: 25px !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    text-wrap: nowrap;
+}
+
+.main {
+    font-weight: 900 !important;
+    font-size: 47px;
+}
+
+.background {
+    background-image: url(https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-bg.jpg);
+
+    border-radius: 0px 0px 48px 48px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px 0px 150px;
+}
+
+.form {
+    background-color: whitesmoke;
+    border-radius: 25px !important;
+    height: 45px;
+}
+
+.input-button button {
+    border-radius: 25px !important;
+    background-color: #ee626b;
+    font-weight: 500;
+    font-size: 16px;
+    padding-right: 34px;
+    padding-left: 34px;
+    position: absolute;
+    left: 234.5px;
+    height: 44px;
+    border: none;
+    text-wrap: nowrap;
+
+
+    &:hover {
+        border-radius: 25px;
+        background-color: #0d6efd;
+    }
+}
+
+.input-form input {
+    padding-right: 142px;
+    padding-left: 17px;
+    border-radius: 25px !important;
+    border: none;
+    /* padding-right: 62px; */
+    /* padding-left: 57px; */
+    height: 44px;
+    outline: none;
+}
+
+.hero {
+    position: relative;
+}
+
+/* .menu-hover:hover {
+    color: rgba(255, 255, 255, .55) !important;
+} */
+
+
+.texts {
+    font-size: 24px;
+}
+
+.texts-h1 {
+    font-size: 60px;
+}
+
+.fixing {
+    position: fixed;
+    /* width: 100%; */
+    top: 0
+        /* left:0 */
+}
+
+/* .nav-menu{
+    justify-content: space-between!important;
+} */
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: #ee626b;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #efff;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-offer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 19px;
+    margin-right: 39px;
+    border-radius: 25px;
+    background-color: #008af8;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #efff;
+    padding: 4px 15px;
+}
+
+/* card style  */
+
+.card {
+    padding: 21px 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    background-color: #fff !important;
+    align-items: center;
+
+
+
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+    line-height: 90px;
+    background-color: #0071f8;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: #ee626b;
+    }
+}
+
+.text {
+    font-size: 17px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+
+}
+
+.cards {
+    margin-top: -75px;
+
+    &:hover {
+        color: #ee626b;
+    }
+}
+
+/* 
+trending Style */
+.trending {
+    margin: 37px
+}
+
+.tren-style {
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.game-style {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 44px;
+}
+
+.buttun {
+    background-color: #ee626b;
+    border-radius: 25px;
+    text-transform: uppercase !important;
+    height: 37px;
+    padding: 9px;
+    padding-top: 4px;
+    display: inline-block;
+    padding: 9px;
+    line-height: 1;
+    border: none;
+    text-wrap: nowrap;
+    font-weight: 500;
+
+    &:hover {
+        background-color: #0071f8;
+    }
+}
+
+/* trending style  & most played style*/
+.emm{
+    color: #0071f8 !important;
+}
+
+.trend-cards {
+    background-color: #eeeeee;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+
+    &:hover {
+        color: #0071f8;
+    }
+
+}
+
+.item {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.item img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.price {
+    text-align: right;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #008af8;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 17px 13px 15px;
+    right: 0;
+    top: 0;
+    margin: 14px;
+}
+
+.price em {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: line-through;
+    display: block
+}
+
+.texts {
+    padding: 6px 12px;
+}
+
+.categories {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 5px;
+    padding: 1px 14px;
+}
+
+.categories h4 {
+    font-size: 17px;
+    font-weight: 600;
+
+
+    &:hover {
+        color: #6e62ee;
+    }
+}
+
+h4 {
+    font-size: 22px;
+    padding: -1px 14px;
+}
+
+.Assasin {
+    padding: 1px 14px;
+}
+
+.shopping {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #ee626b;
+    color: #fff;
+    border-radius: 50%;
+    right: 25px;
+    bottom: 25px;
+}
+
+.most-played {
+    background-color: #2032841c;
+    position: relative;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+
+    &:hover {
+        color: #008af8;
+    }
+
+}
+
+.items {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.textss {
+    padding: 17px 21px 24px 15px;
+}
+
+.textss h4 {
+
+    &:hover {
+        color: #0071f8;
+    }
+
+}
+
+
+.last-button {
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    padding: 0px 15px;
+    background-color: #ee626b;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    margin: 4px -40px !important;
+
+    &:hover {
+        background-color: #008af8;
+    }
+}
+
+.most-playeds {
+    background-color: #f7f7f7;
+    padding: 100px 0px;
+    border-radius: 150px;
+}
+
+/* categories styles */
+.cate {
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.top-cate {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 44px;
+    color: #000;
+}
+
+.cate-gories {
+    background-color: #0071f8;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.big {
+    width: 20%;
+}
+
+.blue {
+    text-wrap: nowrap;
+}
+
+.cr {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    padding: 22px;
+    margin-bottom: 3px;
+}
+
+.cat img {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+/* 
+before footer style */
+.shop-news {
+    border-radius: 25px;
+}
+
+.before-footer {
+    margin: 225px 0px;
+}
+
+.shop {
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+
+.price-list {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 44px;
+    color: #000;
+
+}
+
+.our-shop {
+    margin-right: -112px;
+    margin-top: 75px;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    padding: 80px;
+
+}
+
+.z-blur {
+    z-index: 1 !important;
+}
+
+
+.pplorem {
+    font-weight: 800 !important;
+    font-size: 13px !important;
+}
+
+.full-butt {
+    background-color: #ee626b !important;
+    padding: 17px 34px !important;
+    line-height: 1 !important;
+    font-size: 13px !important;
+    border-radius: 25px !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    border: none !important;
+
+    &:hover {
+        background-color: #008af8 !important;
+    }
+}
+
+.our-news {
+    margin-top: 145px !important;
+    margin-left: -99px !important;
+    background-color: #f7f7f7 !important;
+    border-radius: 25px !important;
+    padding: 80px 60px !important;
+}
+
+.newss {
+    background-color: #fff !important;
+    /* padding-left: 73px !important; */
+    border-radius: 25px !important;
+    border: none !important;
+    height: 44px !important;
+    outline: none !important;
+    padding: 23px 22px !important;
+    margin: 6px !important;
+}
+
+.news-button {
+    border-radius: 25px !important;
+    background-color: #ee626b !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    padding-right: 17px !important;
+    padding-left: 22px !important;
+    position: absolute !important;
+    left: 253.5px !important;
+    height: 44px !important;
+    border: none !important;
+    margin: 7px !important
+    ;
+
+    &:hover {
+        background-color: #0071f8 !important;
+    }
+}
+
+
+
+/* footer style */
+.last-footer {
+    margin-top: 150px;
+    background-color: #0071f8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/footer-bg.jpg);
+    min-height: 150px;
+    border-radius: 150px 150px 0px 0px;
+}
+
+.para-last {
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
